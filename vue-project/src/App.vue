@@ -1,7 +1,6 @@
 <template>
   <div>
-    <Connexion msg="Conexion" />
-    <!-- <Button /> -->
+    <Connexion msg="Connexion" />
   </div>
 </template>
 
@@ -11,7 +10,6 @@
     name: 'App',
     components: {
       Connexion,
-      // Button
     }
   }
 </script>

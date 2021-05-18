@@ -13,21 +13,26 @@
         </div>
         <div>
             <p>Create an account</p>
-            <button>Here</button>
+            <CallToAction />
         </div>
         <div>
-            <button>Connexion</button>
+            <CallToAction />
         </div>
     </div>
 </template>
 
 <script>
-export default {
-  name: 'Connexion',
-  props: {
-    msg: String
-  }
-}
+    import CallToAction from '../CallToAction'
+
+    export default {
+        name: 'Connexion',
+        props: {
+            msg: String
+        },
+        components: {
+            CallToAction
+        }
+    }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
