@@ -1,0 +1,10 @@
+
+
+.input-form {
+  display: flex;
+  flex-direction: column;
+  color: $test-color;
+  label {
+    margin-bottom: 10px;
+  }
+}
